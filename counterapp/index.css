@@ -1,0 +1,120 @@
+body{
+    background: linear-gradient(125deg,#2980b9,#8e44ad);
+     margin: 0;
+     padding: 0;
+     font-family: montserrat;
+     height: 100vh;
+     overflow: hidden;
+
+}
+ .center{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 450px;
+     background:white;
+     border-radius: 10px;
+     
+ }
+ .center h1{
+     text-align: center;
+     padding: 0 0 20px 0;
+     border-bottom: 1px solid silver;
+     color: #094594;
+
+ }
+   .count{
+       padding: 45px 0 105px 0;
+       box-sizing: border-box;
+   }
+.count #count{
+        position:absolute;
+        margin: 30px 0;
+
+        left: 50%;
+        top: 90px;
+        font-weight: bold;
+        font-size: xxx-large;
+        transition: .5s;
+        transform: translate(-50% -50%);
+        transform: translateX(-50px);
+        
+        
+       
+        color: #030f7c;
+}
+   footer{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding:0 0 20px 10px;
+    color: #dd1111;
+    
+   }
+   .btn{
+       position: relative;
+        margin: 30px 0;
+        
+      
+   }
+  
+   #count-btn{
+          width:125px;
+       
+        transform: translateY(80%);
+    
+        border:1px solid;
+         
+        cursor: pointer;
+         border-radius: 25px;
+         height:40px;
+         margin-left: 15px;
+         left: 100%;
+         font-size: 18px;
+         background: #0c49f0;
+         
+   }
+   #count-btn:hover{
+
+        border-color:black;
+        transition: .5s;
+        
+   }
+   #count-btn{
+       color:rgb(245, 225, 225);
+   }
+   #save-btn{
+       
+       width:125px;
+     
+      transform: translateY(-90%); 
+      border:1px solid ;
+       
+      cursor: pointer;
+       border-radius: 25px;
+       height:45px;
+       
+       font-size: 18px;
+       background:darkred;
+       color :white;
+ 
+   }
+   .save{
+       position: relative;
+       left: 70%;
+       
+       
+   }
+   #save-btn:hover{
+         border-color: black;
+   }
+    .entries{
+        margin-top: 30px;
+      margin-bottom: 30px;
+       font-weight: 400;
+       font-size: 18px;
+       margin-left: 20px;
+       color: rgb(21, 6, 240);
+   }
+   
+   
